@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'We are practicing Multi Branch Pipeline'
+            }
+        }
+    }
+}
