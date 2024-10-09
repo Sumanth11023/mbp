@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'We are practicing Multi Branch Pipeline'
+                echo 'We are practising Multi Branch Pipeline'
             }
         }
     }
